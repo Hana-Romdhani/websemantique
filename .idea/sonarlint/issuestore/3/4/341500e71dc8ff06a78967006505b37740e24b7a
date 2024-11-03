@@ -1,0 +1,17 @@
+
+x
+java:S1488*"[Immediately return this expression instead of assigning it to the temporary variable "inf".(ÂÜ–÷8í¦ƒ¯2
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Íò¸ô8ò¦ƒ¯2
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ôı¥‚8ó¦ƒ¯2
+L	java:S106"+Replace this use of System.out by a logger.(±¦ó¨ûÿÿÿÿ8ô¦ƒ¯2
+b
+java:S1124""EReorder the modifiers to comply with the Java Language Specification.(©€Ç8ö¦ƒ¯2
+G	java:S106%"+Replace this use of System.out by a logger.(Î¹Ñù8ö¦ƒ¯2
+g
+java:S1124."EReorder the modifiers to comply with the Java Language Specification.(™°Ïâúÿÿÿÿ8÷¦ƒ¯2
+b
+java:S11246"EReorder the modifiers to comply with the Java Language Specification.(«¹©8ø¦ƒ¯2
+D
+java:S1068"'Remove this unused "RDF" private field.(¯ Åı8û¦ƒ¯2
