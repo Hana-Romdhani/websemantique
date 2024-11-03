@@ -28,7 +28,19 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
+        <!-- Logback Dependency for SLF4J -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.6</version>
+        </dependency>
+        <!-- Jakarta Servlet Dependency -->
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>5.0.0</version>
+            <scope>provided</scope>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.jena</groupId>
@@ -65,18 +77,17 @@
             <artifactId>spring-boot-starter-security</artifactId>
             <version>3.1.1</version> <!-- Use the same version as your Spring Boot version -->
         </dependency>
-        <!-- Spring Boot Dependency -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>3.1.1</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
+        <!-- Si vous n'avez pas besoin d'un serveur web, retirez cette dépendance -->
+        <!-- <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.1.1</version>
+        </dependency> -->
     </dependencies>
 
     <build>

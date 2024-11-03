@@ -1,8 +1,11 @@
 package com.greenlink.repository;
+
 import com.greenlink.config.JenaEngine; // Adjust import based on your package structure
 import jakarta.annotation.PostConstruct;
 import org.apache.jena.query.*;
-import org.apache.jena.rdf.model.*;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDF;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -11,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 @Repository
 public class ConseilRepo {
-    @Autowired
+
     private Model model; // Load your ontology model here
 
     // Load the model at startup
